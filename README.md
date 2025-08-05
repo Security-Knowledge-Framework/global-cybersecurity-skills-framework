@@ -1,98 +1,126 @@
-# **OSSF Project/WG Name**
+# **Cybersecurity Skills Framework**
 
-[Brief description of the initiative]
-
+A free, open, and customizable web-based tool developed by the Open Source Security Foundation (OpenSSF) and the Linux Foundation to help organizations assess and build cybersecurity skills across various IT roles. The framework provides skill mapping for 14 job families at different experience levels and aligns with industry standards like NIST NICE, DoD 8140, and ICT e-CF.
 
 ## 
 **Motivation**
 
-[Background / use cases of the problem to be solved]
+Today’s organizations face an urgent need to build cybersecurity capacity across their software, DevOps, operations, and GRC teams. However, most frameworks are overly complex, vendor-driven, or narrowly scoped.
 
+This initiative addresses the need for a simplified, practical, and open cybersecurity skills framework that is:
+
+- Role-based and job family-oriented
+- Lightweight and customizable
+- Mapped to real-world proficiencies and responsibilities
+- Open source and vendor-neutral
+
+Use cases include:
+
+- Building internal security career paths
+- Mapping workforce training needs
+- Conducting cybersecurity skills assessments
+- Bridging the gap between HR, team leads, and technical staff
 
 ## 
 **Objective**
 
-[What is to be achieved with this initiative]
+To provide an open-source, extensible cybersecurity skills framework that:
 
-[OKRs - OPTIONAL]
+- Defines clear roles and responsibilities across 14 job families
+- Maps each role to foundational, intermediate, and advanced skill levels
+- Aligns with common cybersecurity standards and frameworks
+- Encourages adoption across enterprises, education, and governments
 
+**OKRs (Optional)**
+
+- Increase adoption across at least 100 organizations within the first year
+- Add support for 5+ additional job roles based on community feedback
+- Release annual updates based on contributor input and industry changes
 
 ## 
 **Scope**
 
-[What is in and out of scope]
+**In Scope:**
 
+- Development and maintenance of the framework web tool
+- Updates to job families, skills, and mappings
+- Alignment with widely recognized standards
+- Community feedback integration
+
+**Out of Scope:**
+
+- Offering proprietary training content or certifications
+- Providing enterprise consulting or support services
 
 ## 
 **Prior Work**
 
-
-
-*   List of prior and/or related projects
+* [NIST NICE Framework](https://www.nist.gov/itl/applied-cybersecurity/nice/nice-framework-resource-center)
+* [DoD 8140 Workforce Framework](https://public.cyber.mil/cw/dod-cyber-workforce-framework/)
+* [ENISA Cybersecurity Skills Framework](https://www.enisa.europa.eu/publications/european-cybersecurity-skills-framework)
+* [ICT European e-Competence Framework](https://www.ecompetences.eu/)
 
 ## 
 **Active Projects**
 
-[Optional]
+- Cybersecurity Skills Framework (core)
+- Framework UI/UX improvements
+- Additional language support
+- Job role and skill taxonomy expansion
 
 ## 
 **Inactive Projects**
 
-[Optional]
+None at this time
 
 # 
 **Get Involved**
 
-*   Official communications occur on the [ADD LINK TO YOUR WG MAILING LIST] (ex: https://lists.openssf.org/g/openssf-tac/topics).  \
-[Manage your subscriptions to Open SSF mailing lists](https://lists.openssf.org/g/main/subgroups).
-*   [Add Slack information if availabable]
+*   Official communications occur on the [OpenSSF TAC mailing list](https://lists.openssf.org/g/openssf-tac/topics)  
+    [Manage your subscriptions to OpenSSF mailing lists](https://lists.openssf.org/g/main/subgroups)
+*   Join us on the `#skills-framework` channel in the [OpenSSF Slack workspace](https://slack.openssf.org/)
 
 ## 
-
-
 ### 
 **Quick Start**
 
-*   Areas that need contributions
-*   Build information if applicable
-*   Where to file issues
-*   Etc.
+*   Areas that need contributions:
+    - New job role definitions
+    - Skill description refinements
+    - Translations and localization
+    - UI/UX suggestions
+*   Build instructions: See [`CONTRIBUTING.md`](./CONTRIBUTING.md)
+*   File issues or suggestions on [GitHub Issues](https://github.com/ossf/cybersecurity-skills-framework/issues)
 
 ## 
 **Meeting times**
 
 [TODO: Update with your WG meeting details]
-*   Every other Tuesday @ 10:00am PST (Link to calendar invite)
+
+*   Every other Tuesday @ 10:00am PST  
 *   [Meeting Minutes](https://docs.google.com/document/d/1uXQI1vI5_HyOvxHMexrnTY_ruBrynbPl5yOd1UM4g3A/edit#heading=h.yworp6sxzb6g)
 
 # 
 **Governance**
 
-[TODO: Update this link to your specific CHARTER.md file]
 The [CHARTER.md](https://github.com/ossf/project-template/blob/main/CHARTER.md) outlines the scope and governance of our group activities.
 
-
-[OPTIONAL]
-*   Lead name 
-*   Co-Lead name
+*   Lead: Glenn ten Cate (gcate@linuxfoundation.org)
+*   Co-Lead: Christopher Robinson (christopher.robinson@linuxfoundation.org)
 
 #
 **Intellectual Property**
 
 In accordance with the [OpenSSF Charter (PDF)](https://charter.openssf.org/), work produced by this group is licensed as follows:
 
-[TODO: Select below the applicable license(s), delete those that don't apply, and update the LICENSE file accordingly. For specification development refer to the specific instructions on the [Community Specification Getting Started page](https://github.com/CommunitySpecification/1.0/blob/main/..Getting%20Started.md).
-
-Note that for source code, instead of Apache, you may choose to use the MIT License available at https://opensource.org/licenses/MIT. Otherwise, no other license than those listed here may be used without approval from the Governing Board.]
-
-1. Software source code
-* Apache License, Version 2.0, available at https://www.apache.org/licenses/LICENSE-2.0;
-2. Data
-* Any of the Community Data License Agreements, available at https://www.cdla.io;
-3. Specifications
-* Community Specification License, Version 1.0, available at https://github.com/CommunitySpecification/1.0
-4. All other Documentation
-* Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/
+1. Software source code  
+   * Apache License, Version 2.0, available at https://www.apache.org/licenses/LICENSE-2.0
+2. Data  
+   * Any of the Community Data License Agreements, available at https://www.cdla.io
+3. Specifications  
+   * Community Specification License, Version 1.0, available at https://github.com/CommunitySpecification/1.0
+4. All other Documentation  
+   * Creative Commons Attribution 4.0 International License, available at https://creativecommons.org/licenses/by/4.0/
 
 **Antitrust Policy Notice**
 
