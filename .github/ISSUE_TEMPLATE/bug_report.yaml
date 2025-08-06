@@ -1,0 +1,57 @@
+name: 🐞 Bug Report
+description: File a bug report to help us improve the Global Cybersecurity Skills Framework.
+title: "[Bug]: "
+labels: [bug]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting a bug! Please fill out the form below to help us reproduce and fix the issue.
+
+  - type: input
+    id: page
+    attributes:
+      label: File or page where the bug occurs
+      description: Include the file name or path (e.g., `roles/developer.json`)
+      placeholder: e.g. `roles/developer.json`
+    validations:
+      required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+      placeholder: e.g. Wrong skill level listed for 'Incident Response Analyst'
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+      description: Tell us what the correct behavior should be.
+      placeholder: I expected to see...
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - Low
+        - Medium
+        - High
+        - Critical
+      description: How urgent is this issue?
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      options:
+        - label: I agree to follow this project's [Code of Conduct](../CODE_OF_CONDUCT.md)
+          required: true
