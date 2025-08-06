@@ -31,48 +31,9 @@ To provide an open-source, extensible cybersecurity skills framework that:
 - Aligns with common cybersecurity standards and frameworks
 - Encourages adoption across enterprises, education, and governments
 
-**OKRs**
-
-- Add support for 5+ additional job roles based on community feedback
-- Release annual updates based on contributor input and industry changes
-
-## 
-**Scope**
-
-**In Scope:**
-
-- Development and maintenance of the framework web tool
-- Updates to job families, skills, and mappings
-- Alignment with widely recognized standards
-- Community feedback integration
-
-**Out of Scope:**
-
-- Offering proprietary training content or certifications
-- Providing enterprise consulting or support services
-
-## 
-**Prior Work**
-
-* [NIST NICE Framework](https://www.nist.gov/itl/applied-cybersecurity/nice/nice-framework-resource-center)
-* [DoD 8140 Workforce Framework](https://public.cyber.mil/cw/dod-cyber-workforce-framework/)
-* [ENISA Cybersecurity Skills Framework](https://www.enisa.europa.eu/publications/european-cybersecurity-skills-framework)
-* [ICT European e-Competence Framework](https://www.ecompetences.eu/)
-
-## 
-**Active Projects**
-
-- Cybersecurity Skills Framework (core)
-- Framework UI/UX improvements
-- Additional language support
-- Job role and skill taxonomy expansion
 
 # 
 **Get Involved**
-
-*   Official communications occur on the [OpenSSF TAC mailing list](https://lists.openssf.org/g/openssf-tac/topics)  
-    [Manage your subscriptions to OpenSSF mailing lists](https://lists.openssf.org/g/main/subgroups)
-*   Join us on the `#skills-framework` channel in the [OpenSSF Slack workspace](https://slack.openssf.org/)
 
 ## 
 ### 
@@ -86,21 +47,13 @@ To provide an open-source, extensible cybersecurity skills framework that:
 *   Contributing instructions: See [`CONTRIBUTING.md`](./CONTRIBUTING.md)
 *   File issues or suggestions on [GitHub Issues](https://github.com/ossf/cybersecurity-skills-framework/issues)
 
-## 
-**Meeting times**
-
-[TODO: Update with your WG meeting details]
-
-*   Every other Tuesday @ 10:00am PST  
-*   [Meeting Minutes](https://docs.google.com/document/d/1uXQI1vI5_HyOvxHMexrnTY_ruBrynbPl5yOd1UM4g3A/edit#heading=h.yworp6sxzb6g)
-
 # 
 **Governance**
 
 The [CHARTER.md](https://github.com/ossf/project-template/blob/main/CHARTER.md) outlines the scope and governance of our group activities.
 
-*   Lead: Christopher Robinson (christopher.robinson@linuxfoundation.org)
-*   Co-Lead: Glenn ten Cate (gcate@linuxfoundation.org)
+*   Lead: Glenn ten Cate (gcate@linuxfoundation.org)
+*   Co-Lead: Christopher Robinson (christopher.robinson@linuxfoundation.org)
 
 #
 **Intellectual Property**
