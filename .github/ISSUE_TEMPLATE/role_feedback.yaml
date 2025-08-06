@@ -1,0 +1,58 @@
+name: 🧠 Role Feedback
+description: Suggest a change or improvement to a job role or its skill mapping in the framework.
+title: "[Role Feedback]: "
+labels: [role-feedback, enhancement]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing to the Global Cybersecurity Skills Framework!  
+        Use this form to propose changes or enhancements to a role definition, skill mapping, or proficiency level.
+
+  - type: input
+    id: role-name
+    attributes:
+      label: Role Name
+      description: The job role this feedback applies to.
+      placeholder: e.g., Application Security Engineer
+    validations:
+      required: true
+
+  - type: dropdown
+    id: change-type
+    attributes:
+      label: What type of feedback is this?
+      options:
+        - Add a new role
+        - Change skill level
+        - Modify task or responsibility
+        - Correct mapping to external standard (e.g., NICE, DoD 8140, e-CF)
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the change
+      description: Clearly explain your suggested change and the reason behind it.
+      placeholder: Please describe what you would like to change and why.
+    validations:
+      required: true
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References or Standards (if any)
+      description: Link to any relevant frameworks, standards, job descriptions, or authoritative sources.
+      placeholder: e.g., NICE Work Role ID SP-DEV-002, NIST SP 800-181r1, LinkedIn job post
+
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Contributor Agreement
+      options:
+        - label: I agree to follow the Linux Foundation Code of Conduct.
+          required: true
