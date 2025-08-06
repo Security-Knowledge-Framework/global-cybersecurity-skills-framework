@@ -53,5 +53,7 @@ body:
     attributes:
       label: Code of Conduct
       options:
-        - label: I agree to follow this project's [Code of Conduct](../CODE_OF_CONDUCT.md)
+        - label: I agree to follow the Linux Foundation Code of Conduct.
+
+
           required: true
