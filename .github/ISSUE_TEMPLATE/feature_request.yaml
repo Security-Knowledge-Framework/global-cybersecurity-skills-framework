@@ -1,0 +1,60 @@
+name: ✨ Feature Request
+description: Suggest a new feature or improvement to the Global Cybersecurity Skills Framework.
+title: "[Feature Request]: "
+labels: [enhancement, feature-request]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to suggest a new feature!  
+        Please complete the form below so we can understand and evaluate your proposal.
+
+  - type: input
+    id: feature-title
+    attributes:
+      label: Feature Title
+      description: Short title of the feature or enhancement
+      placeholder: e.g., Add export-to-MarkDown functionality for filtered job roles
+    validations:
+      required: true
+
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Feature Description
+      description: A clear and concise description of the feature you’d like to see.
+      placeholder: Explain the feature idea, who it benefits, and what problem it solves.
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why is this feature important?
+      description: Describe the use case or scenario where this feature would be valuable.
+      placeholder: e.g., Educators want to export specific job roles with associated skills to create learning pathways.
+
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: Proposed Solution (optional)
+      description: If you have an idea on how to implement it, describe it here.
+      placeholder: e.g., Add a download button in the web UI using existing filtered dataset
+
+  - type: checkboxes
+    id: alternatives
+    attributes:
+      label: Have you considered any alternatives?
+      options:
+        - label: I’ve considered other approaches and this seems like the best option.
+        - label: I’m open to other suggestions or implementations.
+
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Contributor Agreement
+      options:
+        - label: I agree to follow the Linux Foundation Code of Conduct.
+          required: true
