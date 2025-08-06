@@ -47,7 +47,7 @@ To provide an open-source, extensible cybersecurity skills framework that:
 # 
 **Governance**
 
-The [CHARTER.md](https://github.com/ossf/project-template/blob/main/CHARTER.md) outlines the scope and governance of our group activities.
+The [CHARTER.md](./CHARTER.md) outlines the scope and governance of our group activities.
 
 *   Lead: Glenn ten Cate (gcate@linuxfoundation.org)
 *   Co-Lead: Christopher Robinson (christopher.robinson@linuxfoundation.org)
