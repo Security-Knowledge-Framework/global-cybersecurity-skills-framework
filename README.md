@@ -31,9 +31,8 @@ To provide an open-source, extensible cybersecurity skills framework that:
 - Aligns with common cybersecurity standards and frameworks
 - Encourages adoption across enterprises, education, and governments
 
-**OKRs (Optional)**
+**OKRs**
 
-- Increase adoption across at least 100 organizations within the first year
 - Add support for 5+ additional job roles based on community feedback
 - Release annual updates based on contributor input and industry changes
 
@@ -68,11 +67,6 @@ To provide an open-source, extensible cybersecurity skills framework that:
 - Additional language support
 - Job role and skill taxonomy expansion
 
-## 
-**Inactive Projects**
-
-None at this time
-
 # 
 **Get Involved**
 
@@ -89,7 +83,7 @@ None at this time
     - Skill description refinements
     - Translations and localization
     - UI/UX suggestions
-*   Build instructions: See [`CONTRIBUTING.md`](./CONTRIBUTING.md)
+*   Contributing instructions: See [`CONTRIBUTING.md`](./CONTRIBUTING.md)
 *   File issues or suggestions on [GitHub Issues](https://github.com/ossf/cybersecurity-skills-framework/issues)
 
 ## 
@@ -105,8 +99,8 @@ None at this time
 
 The [CHARTER.md](https://github.com/ossf/project-template/blob/main/CHARTER.md) outlines the scope and governance of our group activities.
 
-*   Lead: Glenn ten Cate (gcate@linuxfoundation.org)
-*   Co-Lead: Christopher Robinson (christopher.robinson@linuxfoundation.org)
+*   Lead: Christopher Robinson (christopher.robinson@linuxfoundation.org)
+*   Co-Lead: Glenn ten Cate (gcate@linuxfoundation.org)
 
 #
 **Intellectual Property**
