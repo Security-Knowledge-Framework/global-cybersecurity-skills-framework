@@ -33,11 +33,8 @@ To provide an open-source, extensible cybersecurity skills framework that:
 
 
 # 
-**Get Involved**
-
-## 
+**Get Involved / Quick Start**
 ### 
-**Quick Start**
 
 *   Areas that need contributions:
     - New job role definitions
